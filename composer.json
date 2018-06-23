@@ -1,5 +1,5 @@
 {
-  "name": "a2bizz/magento2-module-happyfox",
+  "name": "a2bizz/magento2-happyfox-autologin",
   "description": "Happyfox integration for Autologin by A2bizz",
   "require": {
     "php": "~5.6.0|7.0.2|7.0.30|~7.0.6|~7.1.0",
