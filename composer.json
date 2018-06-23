@@ -1,0 +1,22 @@
+{
+  "name": "a2bizz/magento2-module-happyfox",
+  "description": "Happyfox integration for Autologin by A2bizz",
+  "require": {
+    "php": "~5.6.0|7.0.2|~7.0.6|~7.1.0",
+    "magento/framework": "*"
+  },
+  "suggest": {
+  },
+  "type": "magento2-module",
+  "license": [
+    "GPL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "A2bizz\\Happyfox\\": ""
+    }
+  }
+}

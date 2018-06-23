@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+                id="A2bizz_Happyfox::main"
+                title="A2bizz"
+                module="A2bizz_Happyfox"
+                sortOrder="10"
+                resource="A2bizz_Happyfox::main"
+        />
+        <add
+                id="A2bizz_Happyfox::autologin"
+                title="Support"
+                module="A2bizz_Happyfox"
+                sortOrder="10"
+                parent="A2bizz_Happyfox::main"
+                resource="A2bizz_Happyfox::autologin"
+                action="happyfox/customer/autologin"
+        />
+        <add
+                id="A2bizz_Happyfox::config"
+                title="Configuration"
+                module="A2bizz_Happyfox"
+                sortOrder="120"
+                parent="A2bizz_Happyfox::main"
+                resource="A2bizz_Happyfox::config"
+                action="admin/system_config/happyfox"
+        />
+    </menu>
+</config>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="mageguru" translate="label" sortOrder="1000">
+            <label>A2bizz</label>
+        </tab>
+
+        <section id="happyfox" translate="label" type="text" sortOrder="100" showInDefault="1" showInWebsite="1" showInStore="1">
+            <label>Happyfox Ticket</label>
+            <tab>a2bizz</tab>
+            <resource>A2bizz_Happyfox::config</resource>
+            <group id="general" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Account Settings</label>
+                <field id="subdomain" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Subdomain</label>
+                    <comment>your_happyfox_domain.happyfox.com</comment>
+                </field>
+                <field id="token" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>HappyFox Token *</label>
+                    <comment>Like this - fbcc37ae226e3656b853c75fa85c3bde</comment>
+                </field>
+                <field id="storeoptionid" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>HappyFox Store Option Id</label>
+                    <comment>Enter the store Name in HappyFox select case and you will get a option Id, save that here.</comment>
+                </field>
+            </group>
+        </section>
+
+    </system>
+</config>
