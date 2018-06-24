@@ -1,13 +1,22 @@
 {
   "name": "a2bizz/magento2-happyfox-autologin",
-  "description": "Happyfox integration for Autologin by A2bizz",
+  "type": "magento2-module",
+  "description": "Happyfox Ticket System integration in Magento2, an Autologin to Happyfox system for business clients to generate ticket by A2bizz",
+  "keywords": ["magento2","happyfox","ticket","happyfox autologin"],
+  "authors": [
+        {
+            "name": "A2bizz",
+            "email": "support@a2bizz.com",
+            "homepage": "https://www.a2bizz.com/",
+            "role": "PHP Developer, Magento"
+        }
+    ],
   "require": {
     "php": "~5.6.0|7.0.2|7.0.30|~7.0.6|~7.1.0",
     "magento/framework": "*"
   },
   "suggest": {
-  },
-  "type": "magento2-module",
+  },  
   "license": [
     "GPL-3.0"
   ],
